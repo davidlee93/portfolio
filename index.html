@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DavidLee93</title>
+  <meta name="description" content="Personal portfolio for David Lee full-stack developer">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:200,300,400" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet" type="text/css">
+  <link href="css/float.css" rel="stylesheet" type="text/css">
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="vendors/jquery.scrollify.js"></script>
+  <script src="vendors/typed.min.js"></script>
+  <script src="index.js"></script>
+</head>
+
+<body>
+  <nav role="navigation" id="top-nav" class="mobile">
+    <ul class="nav-bar" id="menu">
+      <li id="link-1">
+        <a href="#home">Home</a>
+      </li>
+      <li id="link-2">
+        <a href="#about">About</a>
+      </li>
+      <li id="link-3">
+        <a href="#projects">Projects</a>
+      </li>
+      <li class="link-4">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+  <header class="divider section" data-section-name="home" id="home-section" role="banner">
+    <div class="header-inner">
+      <h1>Hi, I'm David!</h1>
+      <div class="typing-container">
+        <h2 id="typing-window">
+          <span id="typing-prompt">
+            <span>
+        </h2>
+      </div>
+      <h2 id="home-bottom-title">who builds with simplicity and innovation.
+      </h2>
+      <div class="contact-header">
+        <a class="link-4" href="#contact">
+          <i class="fas fa-envelope-square contact-icon"></i>
+        </a>
+        <a href="https://github.com/davidlee93/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github-square contact-icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/david-lee-7b2723119/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin contact-icon"></i>
+        </a>
+      </div>
+      <div class="arrow bounce">
+        <i class="fas fa-angle-double-down"></i>
+      </div>
+    </div>
+  </header>
+  <main role="main">
+    <div class="row1-color">
+      <div class="row">
+        <section id="about-section" data-section-name="about" class="col-12 divider section ss-style-doublediagonal">
+          <h2 class="">About Me</h2>
+          <p>
+            <span class="about-logo">
+              <i class="fas fa-cogs"></i>
+            </span> I like to build things – usually with technology, and a side of grit. I've always been fascinated with how things
+            are built, understanding how they work and getting into the specifics in order to build them better. </p>
+
+          <p>
+            <span class="about-logo">
+              <i class="fas fa-laptop"></i>
+            </span> I write simple and coherent code, building full stack JavaScript applications with experience in React/Redux,
+            Node.js, Express, and MongoDB to name a few.</p>
+
+          <p>
+            <span class="about-logo">
+              <i class="fas fa-id-badge"></i>
+            </span> In a previous career I worked in a biotechnology company as a biosample lab associate.</p>
+
+          <p>
+            <span class="about-logo">
+              <i class="fas fa-lightbulb"></i>
+            </span> But it was my passion for building and development that changed my career path. Having an idea move from thought
+            to reality on a page and the addicting sense of satisfaction that comes with solving a problem is what I love
+            about coding.
+          </p>
+
+          <p>
+            <span class="about-logo">
+              <i class="fas fa-futbol"></i>
+            </span> When I'm not writing code, you'll probably find me enjoying food, a book, or some exercise. I love exploring
+            new places, every sport with a ball, the beach, hiking, and the great outdoors. I'm passionate about people,
+            learning and talking about life and (of course) food! </p>
+        </section>
+      </div>
+    </div>
+    <div class="row2-color">
+      <div class="row">
+        <section class="col-12 divider section ss-style-doublediagonal" data-section-name="projects">
+          <div class="project-header-container ">
+            <div class="title-line">
+              <a href="https://gelp.netlify.com/" target="_blank" rel="noopener noreferrer">
+                <h2 class="project-title">
+                  Gelp
+                  <div class="project-logo">
+                    <img src="images/gelp-flower.png" alt="gelp logo">
+                  </div>
+                </h2>
+              </a>
+              <a href="https://github.com/davidlee93/gelp-client" target="_blank" rel="noopener noreferrer" class="github-logo">
+                <i class="fab fa-github title-line-github"></i>
+              </a>
+            </div>
+            <div class="project-tags">
+              <p>| React | Redux | Node.js | Express | Passport | bcryptjs | MongoDB | Mongoose |</p>
+            </div>
+          </div>
+
+          <div class="project-content-container">
+            <div class="project-img">
+              <a href="https://gelp.netlify.com/" target="_blank" rel="noopener noreferrer">
+                <img src="images/Gelp.png" alt="screenshot of Gelp app">
+              </a>
+            </div>
+
+            <div class="project-brief">
+
+              <p>Gelp is a full stack JavaScript application to explore local restaurants and businesses.
+              </p>
+              <ul class="brief-list">
+                <li>Client side was built using create-react-app</li>
+                <li>Utilizes promise middleware for asynchronous AJAX calls</li>
+                <li>Form state management and validation with Redux Form</li>
+                <li>API is an express application built with Node.js</li>
+                <li>Mongoose for object modeling for the MongoDB database.</li>
+              </ul>
+
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    </div>
+
+
+    <div class="row3-color">
+      <div class="row">
+        <section class="col-12 divider section ss-style-doublediagonal" data-section-name="projects-2">
+          <div class="project-header-container reverse">
+            <div class="project-tags">
+              <p>| Node.js | Express | EJS | Mongoose |</br> MongoDB | </p>
+            </div>
+            <div class="title-line">
+              <a href="https://bubble-up-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <h2 class="project-title">
+                  bubbleUp</h2>
+              </a>
+              <a href="https://github.com/davidlee93/BubbleUp-Fullstack-Capstone" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github title-line-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-content-container reverse">
+
+            <div class="project-brief">
+              <p>bubbleUp is a full stack JavaScript application for versatile personal space for sharing what is on your mind
+                or want to remember.</p>
+
+              <ul class="brief-list">
+                <li>Implements RESTful architecture</li>
+                <li>Event listeners trigger asynchronous AJAX calls to API processing CRUD operations</li>
+                <li>jQuery traversal and DOM manipulation</li>
+                <li>Utilizes EJS template</li>
+              </ul>
+
+            </div>
+            <div class="project-img">
+              <a href="https://bubble-up-app.herokuapp.com/" target="_blank" rel="noopener noreferrer">
+                <img src="images/BubbleUp.png" alt="screenshot of bubbleUp application">
+              </a>
+
+            </div>
+          </div>
+        </section>
+      </div>
+
+    </div>
+
+    <div class="row4-color">
+      <div class="row">
+        <section class="col-12 divider section ss-style-doublediagonal" data-section-name="projects-3">
+
+          <div class="project-header-container">
+            <div class="title-line">
+              <a href="https://davidlee93.github.io/WeatherOrNot/" target="_blank" rel="noopener noreferrer">
+                <h2 class="project-title">
+                  WeatherOrNot</h2>
+              </a>
+              <a href="https://github.com/davidlee93/WeatherOrNot" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github title-line-github"></i>
+              </a>
+            </div>
+            <div class="project-tags">
+              <p>| Open API use | AJAX calls | jQuery traversal </br>& DOM manipulation |</p>
+            </div>
+          </div>
+
+          <div class="project-content-container">
+            <div class="project-img">
+              <a href="https://davidlee93.github.io/WeatherOrNot/" target="_blank" rel="noopener noreferrer">
+                <img src="images/WeatherOrNot.png" alt="screenshot of WeatherOrNot application">
+              </a>
+            </div>
+
+            <div class="project-brief">
+              <p> A single-page trip planning application that makes simultaneous AJAX calls to multiple open APIs. Simply input
+                an origin and destination, and a one-click search will display:</p>
+
+              <ul class="brief-list">
+                <li>3-day weather forecast from the Weather Underground API</li>
+                <li>A Google map centered on your route to desired destination</li>
+                <li>Estimated drive time and driving distance based on given locations using the Google Distance Matrix API</li>
+              </ul>
+
+            </div>
+          </div>
+
+        </section>
+      </div>
+    </div>
+
+  </main>
+
+  <footer role="content-info" class="footer" data-section-name="contact">
+    <div id="footer-content">
+      <h3>Like My Work?</h3>
+
+      <div class="email">
+        <a href="mailto:davidlee93@gmail.com">
+          <i class="fas fa-envelope-square contact-icon"></i>
+        </a>
+        <div class="username">
+          <a href="mailto:davidlee93@gmail.com">
+            <p>davidlee93@gmail.com</p>
+          </a>
+        </div>
+      </div>
+      <div class="github">
+        <a href="https://github.com/davidlee93/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-github-square contact-icon"></i>
+        </a>
+        <div class="username">
+          <a href="https://github.com/davidlee93/" target="_blank" rel="noopener noreferrer">
+            <p>davidlee93</p>
+          </a>
+        </div>
+      </div>
+      <div class="linkedin">
+        <a href="https://www.linkedin.com/in/david-lee-7b2723119/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin contact-icon"></i>
+        </a>
+        <div class="username">
+          <a href="https://www.linkedin.com/in/david-lee-7b2723119/" target="_blank" rel="noopener noreferrer">
+            <p>Let's Connect</p>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
