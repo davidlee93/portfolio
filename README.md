@@ -1,4 +1,4 @@
-# Portfolio Site
+# David Lee's Portfolio Site
 
 Portfolio site containing personal bio and showcase of projects built.
 
