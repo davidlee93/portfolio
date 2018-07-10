@@ -224,6 +224,7 @@ footer {
 
 #footer-content svg {
   vertical-align: middle;
+  color: #20232d;
 }
 
 .linkedin,
@@ -249,7 +250,7 @@ p {
 
 #footer-content a {
   text-decoration: none;
-  color: #cccccc;
+  color: #20232d;
 }
 
 .username {
